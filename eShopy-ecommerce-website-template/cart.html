@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eShopy eCommerce Website</title>
+    <!-- Link font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Header section -->
+    <section id="header">
+        <a href="index.html"><img src="./img/eShopy.png" width="80px" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a  href="shope.html">Shope</a></li>
+                <li><a  href="blog.html">Blog</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a  href="contact.html">Contact</a></li>
+                <li><a  class="active" id="lg-bag" href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+
+        </div>
+    </section>
+
+
+    <!-- Home page -->
+    <!-- Hero section -->
+    <section id="Page-header" class="about-header">
+        <marquee background-color="#ccc" loop="-1" scrollamount="5" width="100%" font-size="30px">
+            <h2>eshoppy</h2>
+        </marquee>
+        <h1>Buy Now</h1>
+        <p>#Your Cart</p>
+       
+    </section>
+
+    <!-- cart section -->
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Trash</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-trash"></i></td>
+                    <td><img src="img/products/s1.jpg" alt=""></td>
+                    <td>Fancy</td>
+                    <td>$90</td>
+                    <td><input type="number" name="" id="" min="1" value="2"></td>
+                    <td>ladies Fancy Three Piece Suits</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-trash"></i></td>
+                    <td><img src="img/products/s2.jpg" alt=""></td>
+                    <td>Fancy</td>
+                    <td>$90</td>
+                    <td><input type="number" name="" id="" min="1" value="2"></td>
+                    <td>ladies Fancy Three Piece Suits</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-trash"></i></td>
+                    <td><img src="img/products/s3.jpg" alt=""></td>
+                    <td>Fancy</td>
+                    <td>$90</td>
+                    <td><input type="number" name="" id="" min="1" value="2"></td>
+                    <td>ladies Fancy Three Piece Suits</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-trash"></i></td>
+                    <td><img src="img/products/s4.jpg" alt=""></td>
+                    <td>Fancy</td>
+                    <td>$90</td>
+                    <td><input type="number" name="" id="" min="1" value="2"></td>
+                    <td>ladies Fancy Three Piece Suits</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-trash"></i></td>
+                    <td><img src="img/products/s5.jpg" alt=""></td>
+                    <td>Fancy</td>
+                    <td>$90</td>
+                    <td><input type="number" name="" id="" min="1" value="2"></td>
+                    <td>ladies Fancy Three Piece Suits</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-trash"></i></td>
+                    <td><img src="img/products/s6.jpg" alt=""></td>
+                    <td>Fancy</td>
+                    <td>$90</td>
+                    <td><input type="number" name="" id="" min="1" value="2"></td>
+                    <td>ladies Fancy Three Piece Suits</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-trash"></i></td>
+                    <td><img src="img/products/s7.jpg" alt=""></td>
+                    <td>Fancy</td>
+                    <td>$90</td>
+                    <td><input type="number" name="" id="" min="1" value="2"></td>
+                    <td>ladies Fancy Three Piece Suits</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Add coupon</h3>
+            <div>
+                <input type="text" name="" placeholder="Enter your coupon" id="">
+                <button type="submit" class="normal">Add</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$300</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$300</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to Aggregate</button>
+        </div>
+    </section>
+
+   
+
+
+
+    <!-- footer section -->
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo3.png" width="50%" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>2nd Floor Block-C Hills tower park road Foundation City</p>
+            <p><strong>Phone:</strong> +015684594889 </p>
+            <p><strong>Address:</strong> 9:00 - 18:00, Mon - Sat</p>
+
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagrm"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+    
+        </div>
+        
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Home Delivery</a>
+            <a href="#">Products</a>
+            <a href="#">Term & Conditions</a>
+            <a href="#">Policy & Privacy</a>
+            <a href="#">Contact us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Register / Signin</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Order</a>
+            <a href="#">Help And Support</a>
+            <a href="#">Place Order</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From Play store or Google play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>We Secured Your payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>@ 2023, EasyBuy etc - Ecommerce platform</p>
+        </div>
+
+    </footer>
+
+
+    <!--Link js here -->
+    <script src="script.js">
+    
+
+    </script>
+   
+</body>
+</html>
